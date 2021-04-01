@@ -1,0 +1,12 @@
+{
+    "name": "gioco-plus/ag-contract",
+    "description": "ag interface",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GiocoPlus\\AG\\": "src/"
+        }
+    }
+}
