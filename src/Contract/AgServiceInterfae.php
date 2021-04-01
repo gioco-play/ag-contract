@@ -43,21 +43,5 @@ interface AgServiceInterfae {
      */
     function betLogGrabberAll(int $past_minutes);
 
-    /**
-     * 取得錢包餘額
-     *
-     * @param string $op_code
-     * @param string $account
-     * @return mixed
-     */
-    function getBalance(string $op_code, string $account);
 
-    /**
-     * 上/下分失敗 訂單檢核
-     *
-     * @param string $op_code
-     * @param string $order_no
-     * @return mixed
-     */
-    function orderFailCheck(string $op_code, string $order_no);
 }
